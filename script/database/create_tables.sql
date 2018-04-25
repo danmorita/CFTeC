@@ -9,4 +9,10 @@ CREATE TABLE public.teste
     nome character varying(255),
     CONSTRAINT teste_pkey PRIMARY KEY (codigo)
 )
+
+-- Danilo Morita Host (código)
+create table Host (
+    codigo integer NOT NULL,
+    Constraint cod_pkey PRIMARY KEY (codigo)
+)
 -- As tabelas corretas devem ser criadas a partir daqui.
